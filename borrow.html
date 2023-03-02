@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="borrow.js" defer></script>
+    <title>Biblioteket</title>
+  </head>
+  <body>
+    <a href="index.html">Tillbara till startsidan</a>
+    <h1>Låna eller lämna tillbaka bok</h1>
+    <p>Dessa böcker finns tillgängliga just nu:</p>
+    <ul id="avaibleBooksList"></ul>
+    <h2>Låna bok</h2>
+    <p>Skriv in bokens titel för att låna</p>
+    <input type="text" placeholder="bokens titel" id="borrowInput" />
+    <button id="borrowBtn">Låna</button>
+    <p id="borrowMessage"></p>
+
+    <h2>Lämna tillbaka bok</h2>
+    <p>Skriv in bokens titel för att lämna tillbaka</p>
+    <input type="text" placeholder="bokens titel" id="leavedInput" />
+    <button id="leaveBtn">Lämna tillbaka</button>
+    <p id="leaveMessage"></p>
+  </body>
+</html>

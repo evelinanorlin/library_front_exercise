@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="add.js" defer></script>
+    <title>Biblioteket</title>
+  </head>
+  <body>
+    <a href="index.html">Tillbara till startsidan</a>
+    <h1>Lägg till en bok till biblioteket</h1>
+    <p>
+      Tack för att du donerar en bok till vårt fattiga bibliotek.<br />Du lämnar
+      en bok genom at fylla i formuläret nedan:
+    </p>
+    <form>
+      <label for="title">Titel</label><br />
+      <input id="titleInput" name="title" type="text" required /><br />
+      <label for="author">Författare</label><br />
+      <input id="authorInput" name="author" type="text" required /><br />
+      <label for="pages">Antal sidor</label><br />
+      <input id="pagesInput" name="pages" type="number" required /><br />
+      <button type="button" id="sendBtn">Skicka</button>
+    </form>
+  </body>
+</html>
